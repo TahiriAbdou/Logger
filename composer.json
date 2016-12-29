@@ -1,6 +1,7 @@
 {
     "name": "tahiriabdou/logger",
     "description": "Simple PHP logging helper",
+    "licence": "MIT",
     "authors": [
         {
             "name": "TahiriAbdou",
