@@ -342,7 +342,7 @@ class Logger implements LoggerInterface
      */
     public function getLogFile()
     {
-        $filename = LOG_PATH . DIRECTORY_SEPARATOR . $this->getLogName();
+        $filename = LOG_PATH . '/' . $this->getLogName();
         if (!file_exists($filename)) {
             touch($filename);
         }
