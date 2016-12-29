@@ -1,0 +1,4 @@
+composer.lock
+vendor/*
+tests/*.log
+index.php
